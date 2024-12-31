@@ -1,3 +1,36 @@
+# MLA Complaint System
+
+## Project Overview
+
+The **MLA Complaint System** is an application designed to allow citizens to submit complaints related to various government departments and track their resolution status. The project aims to streamline the complaint submission process, improve communication between citizens and government departments, and provide transparency by displaying the status of complaints. The system is built with **React**, **Tailwind CSS**, and **Supabase** for authentication and database management.
+
+### Key Features:
+- **Citizen Login/Signup**: Citizens can log in using Google authentication and view or update their profiles.
+- **Complaint Submission**: Citizens can submit complaints regarding issues in their village, choosing the relevant department for the complaint.
+- **Department Dashboard**: Government departments can view complaints, change their status (Pending, Working, Completed), and provide resolutions.
+- **Admin Panel**: Admins can manage user accounts, departments, and view all complaints in the system.
+- **Complaint Status Tracking**: Citizens can track the status of their complaints and view resolutions provided by the relevant departments.
+
+## Tech Stack
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Supabase (Authentication, Database, Storage)
+- **Hosting**: Vercel (Frontend), Supabase (Backend)
+
+## How to Get Started
+
+### Prerequisites
+Before you begin, make sure you have the following installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- A **GitHub** account to contribute
+
+### Setting Up the Project Locally
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/mla-complaint.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
